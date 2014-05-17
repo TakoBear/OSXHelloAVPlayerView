@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090ABFB71927BFE40032BDFF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090ABFB61927BFE40032BDFF /* Cocoa.framework */; };
+		090ABFC11927BFE40032BDFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090ABFBF1927BFE40032BDFF /* InfoPlist.strings */; };
+		090ABFC31927BFE40032BDFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090ABFC21927BFE40032BDFF /* main.m */; };
+		090ABFC71927BFE40032BDFF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 090ABFC51927BFE40032BDFF /* Credits.rtf */; };
+		090ABFCA1927BFE40032BDFF /* bearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090ABFC91927BFE40032BDFF /* bearAppDelegate.m */; };
+		090ABFCD1927BFE40032BDFF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090ABFCB1927BFE40032BDFF /* MainMenu.xib */; };
+		090ABFCF1927BFE40032BDFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090ABFCE1927BFE40032BDFF /* Images.xcassets */; };
+		090ABFD61927BFE50032BDFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090ABFD51927BFE50032BDFF /* XCTest.framework */; };
+		090ABFD71927BFE50032BDFF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090ABFB61927BFE40032BDFF /* Cocoa.framework */; };
+		090ABFDF1927BFE50032BDFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090ABFDD1927BFE50032BDFF /* InfoPlist.strings */; };
+		090ABFE11927BFE50032BDFF /* HelloAVPlayerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090ABFE01927BFE50032BDFF /* HelloAVPlayerViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		090ABFD81927BFE50032BDFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090ABFAB1927BFE40032BDFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090ABFB21927BFE40032BDFF;
+			remoteInfo = HelloAVPlayerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090ABFB31927BFE40032BDFF /* HelloAVPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAVPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090ABFB61927BFE40032BDFF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		090ABFB91927BFE40032BDFF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		090ABFBA1927BFE40032BDFF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		090ABFBB1927BFE40032BDFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		090ABFBE1927BFE40032BDFF /* HelloAVPlayerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloAVPlayerView-Info.plist"; sourceTree = "<group>"; };
+		090ABFC01927BFE40032BDFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		090ABFC21927BFE40032BDFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		090ABFC41927BFE40032BDFF /* HelloAVPlayerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloAVPlayerView-Prefix.pch"; sourceTree = "<group>"; };
+		090ABFC61927BFE40032BDFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		090ABFC81927BFE40032BDFF /* bearAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bearAppDelegate.h; sourceTree = "<group>"; };
+		090ABFC91927BFE40032BDFF /* bearAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bearAppDelegate.m; sourceTree = "<group>"; };
+		090ABFCC1927BFE40032BDFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		090ABFCE1927BFE40032BDFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		090ABFD41927BFE50032BDFF /* HelloAVPlayerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAVPlayerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		090ABFD51927BFE50032BDFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		090ABFDC1927BFE50032BDFF /* HelloAVPlayerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloAVPlayerViewTests-Info.plist"; sourceTree = "<group>"; };
+		090ABFDE1927BFE50032BDFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		090ABFE01927BFE50032BDFF /* HelloAVPlayerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAVPlayerViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090ABFB01927BFE40032BDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090ABFB71927BFE40032BDFF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090ABFD11927BFE50032BDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090ABFD71927BFE50032BDFF /* Cocoa.framework in Frameworks */,
+				090ABFD61927BFE50032BDFF /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090ABFAA1927BFE40032BDFF = {
+			isa = PBXGroup;
+			children = (
+				090ABFBC1927BFE40032BDFF /* HelloAVPlayerView */,
+				090ABFDA1927BFE50032BDFF /* HelloAVPlayerViewTests */,
+				090ABFB51927BFE40032BDFF /* Frameworks */,
+				090ABFB41927BFE40032BDFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090ABFB41927BFE40032BDFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFB31927BFE40032BDFF /* HelloAVPlayerView.app */,
+				090ABFD41927BFE50032BDFF /* HelloAVPlayerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090ABFB51927BFE40032BDFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFB61927BFE40032BDFF /* Cocoa.framework */,
+				090ABFD51927BFE50032BDFF /* XCTest.framework */,
+				090ABFB81927BFE40032BDFF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		090ABFB81927BFE40032BDFF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFB91927BFE40032BDFF /* AppKit.framework */,
+				090ABFBA1927BFE40032BDFF /* CoreData.framework */,
+				090ABFBB1927BFE40032BDFF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		090ABFBC1927BFE40032BDFF /* HelloAVPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFC81927BFE40032BDFF /* bearAppDelegate.h */,
+				090ABFC91927BFE40032BDFF /* bearAppDelegate.m */,
+				090ABFCB1927BFE40032BDFF /* MainMenu.xib */,
+				090ABFCE1927BFE40032BDFF /* Images.xcassets */,
+				090ABFBD1927BFE40032BDFF /* Supporting Files */,
+			);
+			path = HelloAVPlayerView;
+			sourceTree = "<group>";
+		};
+		090ABFBD1927BFE40032BDFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFBE1927BFE40032BDFF /* HelloAVPlayerView-Info.plist */,
+				090ABFBF1927BFE40032BDFF /* InfoPlist.strings */,
+				090ABFC21927BFE40032BDFF /* main.m */,
+				090ABFC41927BFE40032BDFF /* HelloAVPlayerView-Prefix.pch */,
+				090ABFC51927BFE40032BDFF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		090ABFDA1927BFE50032BDFF /* HelloAVPlayerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFE01927BFE50032BDFF /* HelloAVPlayerViewTests.m */,
+				090ABFDB1927BFE50032BDFF /* Supporting Files */,
+			);
+			path = HelloAVPlayerViewTests;
+			sourceTree = "<group>";
+		};
+		090ABFDB1927BFE50032BDFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFDC1927BFE50032BDFF /* HelloAVPlayerViewTests-Info.plist */,
+				090ABFDD1927BFE50032BDFF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090ABFB21927BFE40032BDFF /* HelloAVPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090ABFE41927BFE50032BDFF /* Build configuration list for PBXNativeTarget "HelloAVPlayerView" */;
+			buildPhases = (
+				090ABFAF1927BFE40032BDFF /* Sources */,
+				090ABFB01927BFE40032BDFF /* Frameworks */,
+				090ABFB11927BFE40032BDFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAVPlayerView;
+			productName = HelloAVPlayerView;
+			productReference = 090ABFB31927BFE40032BDFF /* HelloAVPlayerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		090ABFD31927BFE50032BDFF /* HelloAVPlayerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090ABFE71927BFE50032BDFF /* Build configuration list for PBXNativeTarget "HelloAVPlayerViewTests" */;
+			buildPhases = (
+				090ABFD01927BFE50032BDFF /* Sources */,
+				090ABFD11927BFE50032BDFF /* Frameworks */,
+				090ABFD21927BFE50032BDFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090ABFD91927BFE50032BDFF /* PBXTargetDependency */,
+			);
+			name = HelloAVPlayerViewTests;
+			productName = HelloAVPlayerViewTests;
+			productReference = 090ABFD41927BFE50032BDFF /* HelloAVPlayerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090ABFAB1927BFE40032BDFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bear;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TakoBear;
+				TargetAttributes = {
+					090ABFD31927BFE50032BDFF = {
+						TestTargetID = 090ABFB21927BFE40032BDFF;
+					};
+				};
+			};
+			buildConfigurationList = 090ABFAE1927BFE40032BDFF /* Build configuration list for PBXProject "HelloAVPlayerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 090ABFAA1927BFE40032BDFF;
+			productRefGroup = 090ABFB41927BFE40032BDFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090ABFB21927BFE40032BDFF /* HelloAVPlayerView */,
+				090ABFD31927BFE50032BDFF /* HelloAVPlayerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090ABFB11927BFE40032BDFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090ABFC11927BFE40032BDFF /* InfoPlist.strings in Resources */,
+				090ABFCF1927BFE40032BDFF /* Images.xcassets in Resources */,
+				090ABFC71927BFE40032BDFF /* Credits.rtf in Resources */,
+				090ABFCD1927BFE40032BDFF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090ABFD21927BFE50032BDFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090ABFDF1927BFE50032BDFF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090ABFAF1927BFE40032BDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090ABFCA1927BFE40032BDFF /* bearAppDelegate.m in Sources */,
+				090ABFC31927BFE40032BDFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090ABFD01927BFE50032BDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090ABFE11927BFE50032BDFF /* HelloAVPlayerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		090ABFD91927BFE50032BDFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090ABFB21927BFE40032BDFF /* HelloAVPlayerView */;
+			targetProxy = 090ABFD81927BFE50032BDFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		090ABFBF1927BFE40032BDFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090ABFC01927BFE40032BDFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		090ABFC51927BFE40032BDFF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090ABFC61927BFE40032BDFF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		090ABFCB1927BFE40032BDFF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090ABFCC1927BFE40032BDFF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		090ABFDD1927BFE50032BDFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090ABFDE1927BFE50032BDFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090ABFE21927BFE50032BDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		090ABFE31927BFE50032BDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		090ABFE51927BFE50032BDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloAVPlayerView/HelloAVPlayerView-Prefix.pch";
+				INFOPLIST_FILE = "HelloAVPlayerView/HelloAVPlayerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		090ABFE61927BFE50032BDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloAVPlayerView/HelloAVPlayerView-Prefix.pch";
+				INFOPLIST_FILE = "HelloAVPlayerView/HelloAVPlayerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		090ABFE81927BFE50032BDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloAVPlayerView.app/Contents/MacOS/HelloAVPlayerView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloAVPlayerView/HelloAVPlayerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloAVPlayerViewTests/HelloAVPlayerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		090ABFE91927BFE50032BDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloAVPlayerView.app/Contents/MacOS/HelloAVPlayerView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloAVPlayerView/HelloAVPlayerView-Prefix.pch";
+				INFOPLIST_FILE = "HelloAVPlayerViewTests/HelloAVPlayerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090ABFAE1927BFE40032BDFF /* Build configuration list for PBXProject "HelloAVPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090ABFE21927BFE50032BDFF /* Debug */,
+				090ABFE31927BFE50032BDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090ABFE41927BFE50032BDFF /* Build configuration list for PBXNativeTarget "HelloAVPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090ABFE51927BFE50032BDFF /* Debug */,
+				090ABFE61927BFE50032BDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		090ABFE71927BFE50032BDFF /* Build configuration list for PBXNativeTarget "HelloAVPlayerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090ABFE81927BFE50032BDFF /* Debug */,
+				090ABFE91927BFE50032BDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090ABFAB1927BFE40032BDFF /* Project object */;
+}

@@ -18,6 +18,11 @@
 		090ABFD71927BFE50032BDFF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090ABFB61927BFE40032BDFF /* Cocoa.framework */; };
 		090ABFDF1927BFE50032BDFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090ABFDD1927BFE50032BDFF /* InfoPlist.strings */; };
 		090ABFE11927BFE50032BDFF /* HelloAVPlayerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090ABFE01927BFE50032BDFF /* HelloAVPlayerViewTests.m */; };
+		090ABFF41927C1EF0032BDFF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090ABFF21927C1EF0032BDFF /* AVFoundation.framework */; };
+		090ABFF51927C1EF0032BDFF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090ABFF31927C1EF0032BDFF /* AVKit.framework */; };
+		090ABFF91927C2BF0032BDFF /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090ABFF71927C2BF0032BDFF /* MainWindowController.m */; };
+		090ABFFA1927C2BF0032BDFF /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090ABFF81927C2BF0032BDFF /* MainWindowController.xib */; };
+		090ABFFD1927C2F70032BDFF /* DraggedAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090ABFFC1927C2F70032BDFF /* DraggedAVPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,13 @@
 		090ABFDC1927BFE50032BDFF /* HelloAVPlayerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloAVPlayerViewTests-Info.plist"; sourceTree = "<group>"; };
 		090ABFDE1927BFE50032BDFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		090ABFE01927BFE50032BDFF /* HelloAVPlayerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAVPlayerViewTests.m; sourceTree = "<group>"; };
+		090ABFF21927C1EF0032BDFF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		090ABFF31927C1EF0032BDFF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		090ABFF61927C2BF0032BDFF /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		090ABFF71927C2BF0032BDFF /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		090ABFF81927C2BF0032BDFF /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		090ABFFB1927C2F70032BDFF /* DraggedAVPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggedAVPlayerView.h; sourceTree = "<group>"; };
+		090ABFFC1927C2F70032BDFF /* DraggedAVPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggedAVPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090ABFF41927C1EF0032BDFF /* AVFoundation.framework in Frameworks */,
+				090ABFF51927C1EF0032BDFF /* AVKit.framework in Frameworks */,
 				090ABFB71927BFE40032BDFF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +109,8 @@
 		090ABFB51927BFE40032BDFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				090ABFF21927C1EF0032BDFF /* AVFoundation.framework */,
+				090ABFF31927C1EF0032BDFF /* AVKit.framework */,
 				090ABFB61927BFE40032BDFF /* Cocoa.framework */,
 				090ABFD51927BFE50032BDFF /* XCTest.framework */,
 				090ABFB81927BFE40032BDFF /* Other Frameworks */,
@@ -115,9 +131,11 @@
 		090ABFBC1927BFE40032BDFF /* HelloAVPlayerView */ = {
 			isa = PBXGroup;
 			children = (
+				090ABFEC1927C0C00032BDFF /* Views */,
+				090ABFEB1927C0BA0032BDFF /* Controllers */,
+				090ABFEA1927C0B00032BDFF /* Resources */,
 				090ABFC81927BFE40032BDFF /* bearAppDelegate.h */,
 				090ABFC91927BFE40032BDFF /* bearAppDelegate.m */,
-				090ABFCB1927BFE40032BDFF /* MainMenu.xib */,
 				090ABFCE1927BFE40032BDFF /* Images.xcassets */,
 				090ABFBD1927BFE40032BDFF /* Supporting Files */,
 			);
@@ -152,6 +170,33 @@
 				090ABFDD1927BFE50032BDFF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		090ABFEA1927C0B00032BDFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFCB1927BFE40032BDFF /* MainMenu.xib */,
+				090ABFF81927C2BF0032BDFF /* MainWindowController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		090ABFEB1927C0BA0032BDFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFF61927C2BF0032BDFF /* MainWindowController.h */,
+				090ABFF71927C2BF0032BDFF /* MainWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		090ABFEC1927C0C00032BDFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				090ABFFB1927C2F70032BDFF /* DraggedAVPlayerView.h */,
+				090ABFFC1927C2F70032BDFF /* DraggedAVPlayerView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +280,7 @@
 				090ABFCF1927BFE40032BDFF /* Images.xcassets in Resources */,
 				090ABFC71927BFE40032BDFF /* Credits.rtf in Resources */,
 				090ABFCD1927BFE40032BDFF /* MainMenu.xib in Resources */,
+				090ABFFA1927C2BF0032BDFF /* MainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090ABFF91927C2BF0032BDFF /* MainWindowController.m in Sources */,
+				090ABFFD1927C2F70032BDFF /* DraggedAVPlayerView.m in Sources */,
 				090ABFCA1927BFE40032BDFF /* bearAppDelegate.m in Sources */,
 				090ABFC31927BFE40032BDFF /* main.m in Sources */,
 			);
@@ -467,6 +515,7 @@
 				090ABFE61927BFE50032BDFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		090ABFE71927BFE50032BDFF /* Build configuration list for PBXNativeTarget "HelloAVPlayerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +524,7 @@
 				090ABFE91927BFE50032BDFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

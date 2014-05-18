@@ -8,8 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class MainWindowController;
+
 @interface bearAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, strong) MainWindowController *mainWindowController;
 
 @end
